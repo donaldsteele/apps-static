@@ -1,6 +1,4 @@
 deps:
-  static:
-  - curl-static
   alpine:
   - apr-dev
   - apr-util-dev
@@ -8,10 +6,14 @@ deps:
   - autoconf
   - bison
   - bzip2-dev
+  - bzip2-static
+  - curl-dev
+  - curl-static
   - db-dev
   - enchant-dev
   - expat-dev
   - freetds-dev
+  - freetds-static
   - freetype-dev
   - freetype-static
   - g++
@@ -20,6 +22,7 @@ deps:
   - icu-dev
   - icu-static
   - libevent-dev
+  - libevent-static
   - libgcrypt-dev
   - libgd
   - libjpeg-turbo-dev
@@ -34,14 +37,22 @@ deps:
   - make
   - mariadb-dev
   - net-snmp-dev
+  - nghttp2-dev
+  - nghttp2-static
+  - oniguruma
+  - oniguruma-dev
   - openldap-dev
   - openssl-dev
+  - openssl-libs-static
   - readline-dev
+  - sqlite-dev
   - sqlite-static
   - unixodbc-dev
+  - xz-dev
   - zlib-dev
-  - libbz2-static
+  - zlib-static
 
 version:
   src: https://secure.php.net/downloads.php
   regex: (?<=id="v)7.*(?=" )
+

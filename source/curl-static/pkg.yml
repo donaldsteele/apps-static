@@ -5,6 +5,10 @@ deps:
   - libssh2-dev
   - make
   - zlib-dev
+  - bzip2-static
+  - openssl-libs-static
+  - zlib-static
+
 
 version:
   src: https://curl.haxx.se/download/?C=M;O=D
